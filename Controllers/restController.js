@@ -1,4 +1,4 @@
-const Resume = require('../models/firstmodal');
+const Resume = require('../Models/firstmodal');
 
 // 1. Get Resume Data (Fetch from MongoDB)
 exports.getResume = async (req, res) => {

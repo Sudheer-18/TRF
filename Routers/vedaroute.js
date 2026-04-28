@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const resumeController = require('../controllers/restController');
+const resumeController = require('../Controllers/restController');
 
 // Thunder Client lo POST cheyadaniki
 router.post('/add', resumeController.addResume);
